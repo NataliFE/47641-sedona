@@ -73,14 +73,12 @@
         </div>
         <div class="input-info">
           <label for="residence_time">Длительность пребывания: <span class="required-star">*</span></label>
-          <button class="input-counter input-counter-minus" type="button"></button>
-          <div class="input-description">
+        
             <span class="input-description-of">дн.</span>
-            <input id="residence_time" type="text" name="residence_time" value="14">
+          
+			<input id="residence_time" type="number" min="1" max="50" step="1" value="14">
           </div>
-          <button class="input-counter input-counter-plus" type="button"></button>
-        </div>
-        <div class="input-info">
+          
           <label for="departure">Дата отъезда: <span class="required-star">*</span></label>
           <output id="departure" name="departure">28 июля 2015</output>
         </div>
@@ -90,12 +88,10 @@
         <h2 class="feedback-info-title">Кол-во путешественников:</h2>
         <div class="input-info">
           <label for="travelers">Количество путешественников: <span class="required-star">*</span></label>
-          <button class="input-counter input-counter" type="button"></button>
           <div class="input-description">
             <span class="input-description-of">чел.</span>
-            <input id="travelers-count" type="text" name="travelers-count" value="14">
+			<input id="travelers-count" type="number" min="1" max="50" step="1" value="14">
           </div>
-          <button class="nput-counter nput-counter-plus" type="button"></button>
         </div>
         <div class="input-infor">
           <div class="input-left-column">
